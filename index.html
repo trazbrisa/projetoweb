@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Mundo LGBTQIA+</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="shortcut icon" href="imagens/degrade.webp" type="image/x-icon">
+    <link rel="stylesheet" href="plugins/jquery.bxslider.css">
+    <link rel="stylesheet" href="plugins/magnific-popup.css">
+    <script src="plugins/jquery.min.js"></script>
+    <script src="plugins/jquery.bxslider.min.js"></script>
+    <script src="plugins/jquery.magnific-popup.js"></script>
+    
+
+
+    <script>
+
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'fade',
+                //captions: true, mostra legenda se tiver title na tag img
+                // slideWidth: 400,
+                auto: true,
+                pager: true,
+                //controls: true
+            });;
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <header id="cabecalho">
+        <div class="container">
+            <title>Mundo LGBTQUIA+</title>
+            <img src="imagens/degrade.webp" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="./internas/historia.html" target="_blank" >Contexto Histórico</a></li>
+                    <li><a href="./internas/lgbt.html" target="_blank">Movimento LGBT</a></li>
+                    <li><a href="./internas/identidade.html" target="_blank">Identidade de Gênero</a></li>
+                    <li><a href="./internas/orientacao.html" target="_blank">Orientação Sexual</a></li>
+                    <li><a href="./internas/stonewall.html" target="_blank">Revolta de Stonewall</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="apresentacao">
+        <div class="container">
+            <ul class="slider">
+                <li><img src="imagens/lutah.JPG"></li>
+                <li><img src="imagens/romance.jpg"></li>
+                <li><img src="imagens/dragq.jpg"></li>
+            </ul>
+
+            <div class="texto">
+                <h1>Olá, seja bem-vindo(a)!</h1>
+                    <p>Esse Site foi criado com o intuito de te apresentar a nossa história que continua sendo uma luta
+                    incessante e intensa. Também quero que ele te agregue conhecimentos, que ele te mantenha informado e consciente de toda a nossa luta.</p>
+                    <p>Sinta-se a vontade e por fim, lembre-se: </p>
+                    <b><p>Você não precisa estar incluso na comunidade, para apoiar a nossa luta!</p></b>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="titulo-secao1">"Quando penso na comunidade LGBT, penso em uma comunidade forte contra a adversidade e
+            que se une para a mudança. Nossas diferenças nos tornam especiais e devem ser celebradas com muito orgulho."
+            - Nicole Scherzinger</h2>
+    </section>
+
+    <section id="video">
+        <div class="container">
+            <h2 class="titulo-secao">Um pouco sobre a Revolta de Stonewall:</h2>
+            <iframe width="500" height="350" src="https://www.youtube.com/embed/e5X5rWHuqQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <p>"Não se sinta sozinho, o mundo está melhor do que era antes. Ainda é difícil, mas você está cercado de gente lutando contigo. Não desista de ser você só porque o mundo ainda não é bom o suficiente para todo o seu brilho!" - Gloria Groove</p>
+            <a href="https://www.instagram.com/trazbrisa/" target="_blank"><img src="imagens/insta.png" id="insta"></a>
+            <a href="https://twitter.com/trazbrisa?t=Op3ybXrahjoUMgXRS5vI0w&s=09" target="_blank"><img src="imagens/twitter.png" id="twitter"></a>
+    </footer>
+</body>
+
+</html>

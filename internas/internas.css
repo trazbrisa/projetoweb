@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IM Fell Double Pica SC', serif;
+    background-image: linear-gradient( to right, rgb(255, 0, 0), orange, yellow, green, rgb(0, 174, 255), blue, rgb(124, 0, 182) );
+}
+
+:root{
+    --color-1: #df6ff5;
+    --color-2: #000;
+    --color-3: #999; 
+    --color-4: #FFF;
+    --color-5: rgb(152, 0, 223);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+
+#cabecalho{
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+#cabecalho .container{
+    display: block;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho #logo{
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    margin-top: 18px;
+    margin-left: -45px;
+}
+
+
+#cabecalho nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#cabecalho nav li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 16px;
+    color: var(--color-4);
+    display: block;
+    padding: 20px;
+    transition: all 0.3s linear;
+    
+}
+
+#cabecalho nav li a:hover{
+    background-color: var(--color-1);
+    color: var(--color-4)
+}
+
+#img1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 450px;
+}
+
+.texto1{
+    font-size: 16px;
+    color:#000;
+    padding-top: 20px;
+    padding: 20px 20px 20px 20px;
+    text-align:left;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.575);
+    margin-bottom: 60px;
+}
+
+.texto1 p{
+    padding-top: 8px;
+    text-align: left;
+}
+
+
+#img{
+    background-color:#000;
+    padding: 10px 10px 10px 10px;
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.texto2{
+    font-size: 16px;
+    color:#000;
+    text-align: left;
+}
+
+.texto2 h1{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+    text-align: center;
+}
+
+.texto3 h1{
+    font-size: 30px;
+    color:#000;
+    padding: 40px 20px 20px 20px;
+    text-align: left;
+    margin-left: -20px;
+    margin-right: 90px;
+}
+
+.texto2 p{
+    padding-top: 8px;
+    text-align: left;
+}
+
+.texto2 li{
+    text-align: center;
+}
+
+#img2{
+    background-color:rgb(0, 0, 0);
+    padding: 10px 10px 10px 10px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    margin-left: 60px;
+    float: right;
+}
+
+#rodape{
+    top: 40px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    background-color: #000;
+    color:#FFF;
+    text-align: center;
+}
